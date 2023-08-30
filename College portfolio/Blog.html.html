@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website design-Arvind kr</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b4a5720c81.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://kit.fontawesome.com/b4a5720c81.css" crossorigin="anonymous">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.jpg"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-shape fa-solid fa-xmark" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="Blog.html.html">BLOG</a></li>
+                    <li><a href="Contact.html.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-shape fa-solid fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>Our Blogs & certificates</h1>
+    </section>
+
+<!-------Blog page content---->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Blogs & certificates</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, a?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, quas.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, explicabo.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, voluptatibus.</p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Enter Email">
+                    <textarea rows="15" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+
+
+
+        </div>
+        <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+            <span>Commerce</span>
+            <span>38</span>
+        </div>
+        <div>
+            <span>Data Analytics</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Industrial training</span>
+            <span>34</span>
+        </div>
+        <div>
+            <span>AutoCad</span>
+            <span>42</span>
+        </div>
+        <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+        </div>
+        <div>
+            <span>Computer Science</span>
+            <span>34</span>
+        </div>
+        <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+        </div>
+        </div>
+    </div>
+    
+</section>
+
+
+<!-------Facilities-------->
+
+
+
+<!-----Footer----->
+<section class="Footer">
+    <h4>About Us</h4>
+    <p>Email: info@gietbbsr.com <br> Website: www.giet.edu.in</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="fa-regular fa-heart"></i> by Arvind kumar Sharma</p>
+</section>
+
+
+
+
+
+
+
+
+<!-------------JavaScript for toggle Menu----------->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function ShowMenu(){
+        navLinks.style.right= "0";
+    }
+    function HideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

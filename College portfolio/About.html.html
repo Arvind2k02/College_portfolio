@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website design-Arvind kr</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b4a5720c81.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://kit.fontawesome.com/b4a5720c81.css" crossorigin="anonymous">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.jpg"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-shape fa-solid fa-xmark" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="Blog.html.html">BLOG</a></li>
+                    <li><a href="Contact.html.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-shape fa-solid fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+<!-------About Us content---->
+<section class="About-Us">
+    <div class="row">
+        <div class="About-col">
+            <h1>Odisha's One of the Reputed College</h1>
+            <p>Our college is one of the leading college in Odisha</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="About-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>
+</section>
+
+
+<!-----Footer----->
+<section class="Footer">
+    <h4>About Us</h4>
+    <p>Email: info@gietbbsr.com <br> Website: www.giet.edu.in</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="fa-regular fa-heart"></i> by Arvind kumar Sharma</p>
+</section>
+
+
+
+
+
+
+
+
+<!-------------JavaScript for toggle Menu----------->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function ShowMenu(){
+        navLinks.style.right= "0";
+    }
+    function HideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
